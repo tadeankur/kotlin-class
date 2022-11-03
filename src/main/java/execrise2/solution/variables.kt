@@ -1,11 +1,15 @@
 package execrise2.solution // ktlint-disable filename
 
-class Contact(val id: Int, var email: String)
+class BigBen {                                  //1
+    companion object Bonger {                   //2
+        fun getBongs(nTimes: Int) {             //3
+            for (i in 1 .. nTimes) {
+                print("BONG ")
+            }
+        }
+    }
+}
 
 fun main() {
-
-    val contact = Contact(1, "mary@gmail.com")  // 4
-
-    println(contact.id)                         // 5
-    contact.email = "jane@gmail.com"            // 6
+    BigBen.getBongs(12)                         //4
 }

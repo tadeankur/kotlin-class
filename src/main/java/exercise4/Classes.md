@@ -54,3 +54,5 @@ A class constructor proprties can have default values
 ```
 class Person(val firstName: String, val lastName: String, var isEmployed: Boolean = true)
 ```
+
+You have interface and abstract classes having same behaviour as Java
