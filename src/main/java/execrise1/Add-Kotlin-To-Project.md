@@ -1,4 +1,7 @@
-Plugin and versions
+### Create a new java project 
+Using intellij create a new java pom project or you can reuse some existing java project if u wish. 
+
+### Plugin and versions
 The kotlin-maven-plugin compiles Kotlin sources and modules. Currently, only Maven v3 is supported.
 
 Define the version of Kotlin you want to use via a kotlin.version property:
@@ -11,7 +14,7 @@ Define the version of Kotlin you want to use via a kotlin.version property:
     </properties>
 ```
 
-Dependencies
+### Dependencies
 
 ```
    <dependencies>
@@ -27,8 +30,8 @@ Dependencies
             <scope>test</scope>
         </dependency>
     </dependencies>
-```x
-To compile source code, specify the source directories in the <build> tag:
+```
+### To compile source code, specify the source directories in the <build> tag:
 
 ```
 <build>
@@ -65,7 +68,7 @@ The Kotlin Maven Plugin needs to be referenced to compile the sources:
 </build>
 ```
 
-##Compile Kotlin and Java sources
+## Compile Kotlin and Java sources
 To compile projects that include Kotlin and Java source code, invoke the Kotlin compiler before the Java compiler.
 In maven terms that means that kotlin-maven-plugin should be run before maven-compiler-plugin using the following method, 
 making sure that the kotlin plugin comes before the maven-compiler-plugin in your pom.xml file:
@@ -108,7 +111,7 @@ making sure that the kotlin plugin comes before the maven-compiler-plugin in you
 </build>
 ```
 
-Create a kotlin file under execrise1 as below and add following code
+### Create a kotlin file under execrise1 as below and add following code
 
 test.kt
 ```
