@@ -1,15 +1,13 @@
 package execrise2.solution // ktlint-disable filename
 
-class BigBen {                                  //1
-    companion object Bonger {                   //2
-        fun getBongs(nTimes: Int) {             //3
-            for (i in 1 .. nTimes) {
-                print("BONG ")
-            }
-        }
+fun getResult(percentage: Int): String {
+    if (percentage > 40) {
+        return "Pass"
+    } else {
+        return "Fail"
     }
 }
 
 fun main() {
-    BigBen.getBongs(12)                         //4
+    println(getResult(percentage = 60))
 }

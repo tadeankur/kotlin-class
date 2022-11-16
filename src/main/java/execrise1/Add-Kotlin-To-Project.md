@@ -66,7 +66,9 @@ The Kotlin Maven Plugin needs to be referenced to compile the sources:
 ```
 
 ##Compile Kotlin and Java sources
-To compile projects that include Kotlin and Java source code, invoke the Kotlin compiler before the Java compiler. In maven terms that means that kotlin-maven-plugin should be run before maven-compiler-plugin using the following method, making sure that the kotlin plugin comes before the maven-compiler-plugin in your pom.xml file:
+To compile projects that include Kotlin and Java source code, invoke the Kotlin compiler before the Java compiler.
+In maven terms that means that kotlin-maven-plugin should be run before maven-compiler-plugin using the following method, 
+making sure that the kotlin plugin comes before the maven-compiler-plugin in your pom.xml file:
 
 ```
 <build>
