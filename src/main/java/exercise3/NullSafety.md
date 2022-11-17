@@ -32,3 +32,17 @@ val b: String? = null
 println(b?.length)
 println(a?.length) // Unnecessary safe call
 ```
+
+
+### Exercise 4
+
+Convert following code to elvis operator
+
+```
+fun main() {
+    val probablePartRef: String? = "12345"
+    val partReflength = if (probablePartRef != null) probablePartRef.length else -1
+    println(partReflength)
+}
+```
+Make probablePartRef = null and try to see the output.

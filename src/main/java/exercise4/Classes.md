@@ -21,7 +21,7 @@ fun main() {
 
 ### Exercise 2
 
-By default all the classes are final in kotlin 
+By default, all the classes are final in kotlin 
 
 1.  Create a base class for inheritance 
 2.  Create a derived class which is inhertied from base class and override the method
@@ -50,6 +50,8 @@ fun main() {
 ####Default values for constructor
 
 A class constructor proprties can have default values
+
+Define a class with default values and try to initialize object without default value and try to see the output
 
 ```
 class Person(val firstName: String, val lastName: String, var isEmployed: Boolean = true)

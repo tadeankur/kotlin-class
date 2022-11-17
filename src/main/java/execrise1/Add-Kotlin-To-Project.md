@@ -1,5 +1,5 @@
 ### Create a new java project 
-Using intellij create a new java pom project or you can reuse some existing java project if u wish. 
+Using intellij create a new java pom project, or you can reuse some existing java project if u wish. 
 
 ### Plugin and versions
 The kotlin-maven-plugin compiles Kotlin sources and modules. Currently, only Maven v3 is supported.
@@ -15,6 +15,9 @@ Define the version of Kotlin you want to use via a kotlin.version property:
 ```
 
 ### Dependencies
+
+kotlin-stdlib contains most of the functionality: Collections, Ranges, Math, Regex, File extensions, Locks, etc... Most of what you use daily is in kotlin-stdlib.
+Java 8 stream extensions 
 
 ```
    <dependencies>

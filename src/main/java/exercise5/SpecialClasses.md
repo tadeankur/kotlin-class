@@ -46,7 +46,7 @@ fun main() {
 
 ### Exercise 2 Companion Objects
 
-Corresponding to static in java.
+Corresponding to kind of static in java.
 
 1. Defines a class.
 2. Defines a companion. Its name can be omitted.
