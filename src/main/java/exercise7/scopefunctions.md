@@ -4,10 +4,10 @@
 
 ```
 fun main() {
-    val person = Person().let {
+    val nameString = Person().let {
         return@let "The name of the Person is: ${it.name}"
     }
-    print(person)
+    print(nameString)
 }
 
 class Person {
