@@ -1,7 +1,6 @@
 ### Exercise 1 :- Convert normal function to single expression function
 
-“let” operator provides an option to perform an operation on the current object and return any value based on the use
-case.
+
 
 ```
 
